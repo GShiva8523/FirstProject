@@ -5,7 +5,8 @@ function calling(){
     if(email==="shiva"&&password==="sh"){
        window.location="Actors.html"
     }else{
-     alert("Invalid Username and Password")
+     window.location="Index.html"
+     alert("invalid username and password")
     }
 
 
