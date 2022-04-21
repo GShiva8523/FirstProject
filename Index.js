@@ -1,4 +1,4 @@
-alert("Working properly")
+
 function calling(){
     let email=document.getElementById("in1").value;
     let password=document.getElementById("in2").value;
@@ -8,4 +8,7 @@ function calling(){
 
 
 }
-calling()
+
+document.getElementById("form").onclick=()=>{
+    calling()
+}
